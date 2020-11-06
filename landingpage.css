@@ -8,16 +8,18 @@ body{
 }
 @keyframes animate {
     0%, 100%{
-      background-image: url(imagesused/diwali.jpg);
+      background-image: url(https://images.unsplash.com/photo-1509558567730-6c838437b06b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+
     }
     25%{
-      background-image: url(imagesused/eid.jpg);
+      background-image: url(https://www.almanac.com/sites/default/files/image_nodes/diwali.jpg);
     }
+
     50%{
-      background-image: url(imagesused/holi.jpg);
+      background-image: url(https://m2w4k5m5.stackpathcdn.com/wp-content/uploads/shutterstock_105088712-1920x1225.jpg);
     }
     75%{
-      background-image: url(imagesused/halloween-2.jpg);
+      background-image: url(https://images.unsplash.com/photo-1527075240784-552cddfbb143?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80);
     }
 }
 @font-face {
