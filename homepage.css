@@ -15,6 +15,19 @@
   overflow: auto;
   display: block;
 }
+.sear{
+	float: right;
+}
+/* span{
+	text-align: center;
+} */
+
+.monthlink{
+	color: #212529;
+	text-align: center;
+	background: pink;
+	padding: 0 auto;
+}
 .gallery {
 	-webkit-column-count: 3;
 	-moz-column-count: 3;
@@ -32,7 +45,9 @@
 	-ms-transform: scale(1);
 	transform: scale(1);
 }
-
+.my-3{
+	font-size: 1.3em;
+}
 @media (max-width: 450px) {
 .gallery {
 		-webkit-column-count: 1;
