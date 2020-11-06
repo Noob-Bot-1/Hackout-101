@@ -1,0 +1,18 @@
+.To-center{
+	text-align: center;
+	
+}
+
+.img{
+  width: 600px;
+  height: auto;
+}
+.thumbnail{
+  height: 500px;
+  overflow: auto;
+}
+.img-thumbnail{
+  height: 500px;;
+  overflow: auto;
+  display: block;
+}

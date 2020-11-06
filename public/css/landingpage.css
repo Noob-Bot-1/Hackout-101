@@ -1,0 +1,66 @@
+body{
+  /* background: url(https://images.unsplash.com/photo-1587642808075-97120a9dc6af?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  font-family: Lato;
+  animation: animate 16s ease-in-out infinite;
+}
+@keyframes animate {
+    0%, 100%{
+      background-image: url(imagesused/diwali.jpg);
+    }
+    25%{
+      background-image: url(imagesused/eid.jpg);
+    }
+    50%{
+      background-image: url(imagesused/holi.jpg);
+    }
+    75%{
+      background-image: url(imagesused/halloween-2.jpg);
+    }
+}
+@font-face {
+   font-family: varino;
+   src: url(Varinonormal.ttf);
+   font-style: normal;
+
+}
+
+html{
+  height: 100%;
+}
+.container{
+  max-width: 90%;
+}
+#content{
+  text-align: center;
+  padding-top: 25%;
+  color: white;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+.navbar-right{
+  text-color: grey;
+}
+h1 {
+  font-family: varino;
+  font-weight: bold;
+  font-size: 5em;
+}
+#go{
+  color: grey;
+  background: white;
+}
+hr{
+  color: white;
+}
+i{
+  padding: 3px;
+}
+hr{
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
