@@ -48,6 +48,8 @@
 .my-3{
 	font-size: 1.3em;
 }
+
+
 @media (max-width: 450px) {
 .gallery {
 		-webkit-column-count: 1;
